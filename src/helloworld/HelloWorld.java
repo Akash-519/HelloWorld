@@ -17,6 +17,8 @@ public class HelloWorld {
         // TODO code application logic here
         System.out.println("Hello World");
         System.out.println("Java version: "+ System.getProperty("java.version"));
+        PrintMyName p1=new PrintMyName();
+        p1.myName();
     }
     
 }
